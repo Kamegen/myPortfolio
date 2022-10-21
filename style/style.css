@@ -1,0 +1,397 @@
+
+
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+a {
+    transition: color .2s linear;
+}
+
+a:hover {
+    color: #A4A8FC;
+}
+
+#header {
+    display: flex;
+}
+
+.logo-name-link {
+    display: block;
+    margin-top: 44px;
+    margin-left: 70px;
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFF;
+}
+
+.logo-name {
+    width: 509px;
+    height: 144px;
+    background-color: #171717;
+}
+
+.nav {
+    width: 931px;
+    background-color: #5D5D5D;
+}
+
+.header-nav {
+    margin-left: 115px;
+    margin-top: 56px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-link {
+    margin-right: 110px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+
+
+.photo-block {
+    display: flex;
+    width: 100%;
+}
+
+.block {
+    width: 509px;
+    height: 926px;
+    background-color: #171717;
+}
+
+.main-photo {
+    width: 920px;
+   
+}
+
+.dots {
+    position: absolute;
+    margin-top: 76px;
+}
+
+.title-name {
+    position: absolute;
+    margin-top: 391px;
+    margin-left: 70px;
+}
+
+.name {
+   
+    font-weight: 500;
+    font-size: 48px;
+    color: #fff;
+    line-height: 59px;
+
+}
+.name span {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+
+}
+
+.profession {
+    margin-top: 35px;
+    background-color: #A4A8FC;
+    width: 746px;
+    height: 126px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+}
+
+article {
+    width: 1350px;
+    height: 937px;
+    background-color: #D9D9D9;
+    display: flex;
+}
+
+.about-me {
+    margin-top: 137px;
+    margin-left: 71px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+
+    color: black;
+    z-index: 2;
+
+}
+
+.rectangle {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 70px;
+    width: 340px;
+    height: 33px;
+    background-color: #A4A8FC;
+    z-index: 1;
+}
+
+.square {
+    margin-top: 40px;
+    height: 442px;
+    width: 442px;
+    background-color: #202020;
+}
+
+.about-photo {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.dots-small {
+    margin-top: 90px;
+    margin-left: 275px;
+}
+
+.about-me-description {
+    width: 632px;
+    margin-top: 137px;
+    margin-left: 130px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 76px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: black;
+
+}
+
+.mobile-skills, .web-skills, .htmlcss-skills, .js-skills, .angular-skills {
+    margin-top: 35px;
+    width: 632px;
+    font-weight: 300;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+
+}
+
+.mobile-square, .web-square, .htmlcss-square, .js-square, .angular-square {
+    margin-top: 13px;
+    width: 632px;
+    height: 7px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 2px;
+}
+
+.mobile-load, .web-load, .htmlcss-load, .js-load, .angular-load {
+    margin-top: 13px;
+    width: 0%;
+    height: 7px;
+    background: #A4A8FC;
+    position: relative;
+    border-radius: 2px;
+}
+
+.mobile-load-animation {
+    animation: mobile 2s ease-in-out forwards;
+}
+.web-load-animation{
+    animation: web 2s ease-in-out forwards;
+}
+.htmlcss-load-animation {
+    animation: htmlcss 2s ease-in-out forwards;
+}
+.js-load-animation {
+    animation: js 2s ease-in-out forwards;
+}
+.angular-load-animation {
+    animation: angular 2s ease-in-out forwards;
+}
+
+/* MY WORK */
+
+#main {
+    width: 1350px;
+    height: 1040px;
+}
+
+.mywork {
+    display: flex;
+}
+
+.mywork-title {
+    margin-top: 79px;
+    margin-left: 513px;
+    font-weight: 700;
+    font-size: 64px;
+    z-index: 1;
+}
+
+.mywork-rectangle {
+    position: absolute;
+    margin-top: 126px;
+    margin-left: 617px;
+    width: 215px;
+    height: 23px;
+    background-color: #A4A8FC;
+    z-index: 0;
+
+}
+
+.bigdots {
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+/* CONTACT */
+
+
+#footer {
+    width: 1350px;
+    background: #D9D9D9;
+    padding-top: 15px;
+    padding-bottom: 60px;
+
+
+}
+
+.footer-block {
+    display: flex;
+}
+
+.lines-big {
+    margin-top: -130px;
+}
+
+.contact-title-vectors {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-title {
+    margin-top: 104px;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+
+.vectors {
+    margin-top: -97px;
+
+}
+
+.dots-footer {
+    margin-top: 23px;
+    margin-left: 1000px;
+}
+
+.email-tel {
+    margin-top: -138px;
+    text-align: center;
+
+}
+
+.email {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.tel {
+    display: block;
+    margin-top: 60px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+
+.telegram-viber {
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.viber {
+    display: block;
+    margin-right: 65px;
+}
+
+.viber img, .telegram img {
+    transition: .2s linear;
+
+}
+
+
+
+.viber :hover, .telegram :hover {
+    transform:scale(1.1, 1.1) ;
+
+}
+
+@keyframes mobile {
+    to {
+    width: 379px;
+    }
+  }
+
+  @keyframes web {
+    to {
+    width: 252px;
+    }
+  }
+
+  @keyframes htmlcss {
+    to {
+    width: 379px;
+    }
+  }
+
+  @keyframes js {
+    to {
+    width: 252px;
+    }
+  }
+
+  @keyframes angular {
+    to {
+    width: 190px;
+    }
+  }
+
+  @media (max-width: 1348px) {
+    
+  }
