@@ -20,7 +20,15 @@ a:hover {
 
 #header {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #171717;
+    width: 100%;
+    overflow: hidden;
 }
+
+
+    
 
 .logo-name-link {
     display: block;
@@ -33,24 +41,18 @@ a:hover {
     color: #FFF;
 }
 
-.logo-name {
-    width: 509px;
-    height: 144px;
-    background-color: #171717;
-}
+
 
 .nav {
-    width: 931px;
+    height: 10%;
+    display: flex;
+    align-items: center;
     background-color: #5D5D5D;
 }
 
 .header-nav {
-    margin-left: 115px;
-    margin-top: 56px;
+    margin-left: 116px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .header-nav-link {
@@ -65,28 +67,25 @@ a:hover {
 
 .photo-block {
     display: flex;
+    justify-content: space-between;
     width: 100%;
 }
 
 .block {
-    width: 509px;
-    height: 926px;
+    width: 100%;
     background-color: #171717;
 }
 
-.main-photo {
-    width: 920px;
-   
-}
+
 
 .dots {
     position: absolute;
-    margin-top: 76px;
+    margin-top: -33%;
 }
 
 .title-name {
     position: absolute;
-    margin-top: 391px;
+    margin-top: -20%;
     margin-left: 70px;
 }
 
@@ -120,10 +119,11 @@ a:hover {
 }
 
 article {
-    width: 1350px;
     height: 937px;
     background-color: #D9D9D9;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .about-me {
@@ -141,7 +141,7 @@ article {
 .rectangle {
     position: absolute;
     margin-top: 180px;
-    margin-left: 70px;
+    margin-left: -58%;
     width: 340px;
     height: 33px;
     background-color: #A4A8FC;
@@ -194,7 +194,7 @@ article {
     margin-top: 35px;
     width: 632px;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     line-height: 20px;
@@ -237,13 +237,10 @@ article {
 
 /* MY WORK */
 
-#main {
-    width: 1350px;
-    height: 1040px;
-}
 
 .mywork {
     display: flex;
+    justify-content: center;
 }
 
 .mywork-title {
@@ -257,7 +254,7 @@ article {
 .mywork-rectangle {
     position: absolute;
     margin-top: 126px;
-    margin-left: 617px;
+    margin-left: 7.5%;
     width: 215px;
     height: 23px;
     background-color: #A4A8FC;
@@ -272,6 +269,7 @@ article {
 
 .certificate {
     margin-top: 5%;
+    margin-bottom: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -288,7 +286,6 @@ article {
 
 
 #footer {
-    width: 1350px;
     background: #D9D9D9;
     padding-top: 15px;
     padding-bottom: 60px;
@@ -323,7 +320,7 @@ article {
 
 .dots-footer {
     margin-top: 23px;
-    margin-left: 1000px;
+    margin-left: 80%;
 }
 
 .email-tel {
@@ -406,6 +403,20 @@ article {
     }
   }
 
-  @media (max-width: 1348px) {
+  @media (max-width: 1560px) {
+    .dots {
+        opacity: 0;
+    }
+    
+  }
+
+  @media (max-width: 1297px) {
+    .dots {
+        opacity: 0;
+    }
+
+    #header {
+        justify-content: space-around;
+    }
     
   }
