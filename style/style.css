@@ -123,7 +123,7 @@ article {
     background-color: #D9D9D9;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 .about-me {
