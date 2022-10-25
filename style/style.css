@@ -7,6 +7,7 @@
     margin: 0;
     font-family:'Roboto', sans-serif;
     scroll-behavior: smooth;
+    min-width: 10%;
     
 }
 
@@ -47,11 +48,16 @@ a:hover {
     height: 10%;
     display: flex;
     align-items: center;
+    justify-content: end;
     background-color: #5D5D5D;
 }
 
+.main-photo {
+    width: 100%;
+}
+
 .header-nav {
-    margin-left: 116px;
+    margin-left: 5%;
 
 }
 
@@ -119,21 +125,19 @@ a:hover {
 }
 
 article {
-    height: 937px;
     background-color: #D9D9D9;
     display: flex;
     justify-content: space-around;
-    /*flex-wrap: wrap;*/
 }
 
 .about-me {
     margin-top: 137px;
-    margin-left: 71px;
     font-weight: 700;
     font-size: 64px;
     line-height: 78px;
 
     color: black;
+    position: relative;
     z-index: 2;
 
 }
@@ -141,7 +145,7 @@ article {
 .rectangle {
     position: absolute;
     margin-top: 180px;
-    margin-left: -58%;
+    margin-left: 5%;
     width: 340px;
     height: 33px;
     background-color: #A4A8FC;
@@ -244,21 +248,19 @@ article {
 }
 
 .mywork-title {
+    position: relative;
     margin-top: 79px;
     margin-left: 513px;
     font-weight: 700;
     font-size: 64px;
-    z-index: 1;
 }
 
 .mywork-rectangle {
-    position: absolute;
-    margin-top: 126px;
-    margin-left: 7.5%;
+    margin-top: -10%;
+    margin-left: 37.5%;
     width: 215px;
     height: 23px;
     background-color: #A4A8FC;
-    z-index: 0;
 
 }
 
@@ -410,6 +412,33 @@ article {
     
   }
 
+
+  @media (max-width: 1357px) {
+
+    #about {
+        flex-direction: column;
+    }
+
+    .about-block {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-me-description {
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+
+    .mywork-title {
+        text-align: center;
+    }
+
+    .mywork-rectangle {
+        margin-left: 14.5%;
+    }
+    
+  }
+
   @media (max-width: 1297px) {
     .dots {
         opacity: 0;
@@ -419,4 +448,130 @@ article {
         justify-content: space-around;
     }
     
+  }
+
+
+  @media (max-width: 935px) {
+
+    .header-nav {
+        display: flex;
+    }
+
+    .title-name {
+        margin-top: -35%;
+    }
+
+    .bigdots {
+        opacity: 0;
+    }
+
+    .mywork-title {
+        margin-left: 0;
+    }
+
+  }
+
+  @media (max-width: 830px) {
+    .nav {
+        justify-content: center;
+    }
+    .header-nav {
+        justify-content: center;
+    }
+    .header-nav-link {
+        margin-right: 20%;
+        font-size: 15px;
+    }
+    .logo-name-link {
+        margin-left: 0;
+    }
+
+    .title-name {
+        margin-left: 5%;
+    }
+
+    .name {
+        line-height: 0;
+        font-size: 24px; 
+    }
+    .name span {
+        list-style: 0;
+        font-size: 32px;
+    }
+
+    .profession {
+        font-size: 22px;
+        margin-top: 0;
+        width: 108%;
+        height: 36px;
+    }
+
+    .about-me {
+        margin-top: 15%;
+        margin-left: 2%;
+        line-height: 0;
+        font-size: 32px;
+    }
+
+    .rectangle {
+        margin-top: 60px;
+        margin-left: -42%;
+        width: 50%;
+        height: 2%;
+    }
+
+    .square {
+        height: 112%;
+        width: 67%;
+    }
+
+    .about-photo {
+        height: 112%;
+        width: 67%;
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+
+    .about-me-description {
+        width: auto;
+
+        margin-top: 30%;
+        margin-left: 2%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .skills {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .mobile-skills, .web-skills, .htmlcss-skills, .js-skills, .angular-skills {
+        margin-top: 35px;
+        width: 100%;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+        line-height: 20px;
+    
+    }
+    
+    .mobile-square, .web-square, .htmlcss-square, .js-square, .angular-square {
+        margin-top: 13px;
+        width: 95%;
+        height: 5px;
+        background-color: #fff;
+        position: absolute;
+        border-radius: 2px;
+    }
+    
+    .mobile-load, .web-load, .htmlcss-load, .js-load, .angular-load {
+        margin-top: 13px;
+        width: 0%;
+        height: 5px;
+        background: #A4A8FC;
+        position: relative;
+        border-radius: 2px;
+    }
+
   }
