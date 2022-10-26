@@ -526,21 +526,22 @@ article {
     }
 
     .square {
-        height: 112%;
-        width: 67%;
+        height: 150%;
+        width: 90%;
+        margin-left: -34%;
     }
 
     .about-photo {
         height: auto;
-        width: 67%;
+        width: 90%;
         margin-top: 15%;
-        margin-left: 5%;
+        margin-left: -28%;
     }
 
     .about-me-description {
         width: auto;
 
-        margin-top: 30%;
+        margin-top: 34%;
         margin-left: 2%;
         font-size: 15px;
         line-height: 20px;
