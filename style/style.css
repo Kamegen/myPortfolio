@@ -359,22 +359,43 @@ article {
     justify-content: center;
 }
 
-.viber {
-    display: block;
-    margin-right: 65px;
+.viber, .telegram {
+    width: 0;
 }
 
-.viber img, .telegram img {
+.viber-img {
+    width: 80%;
+}
+
+.telegram-img {
+    width: 100%;
+}
+
+
+
+.viber img, .telegram img, .resume-link img {
     transition: .2s linear;
 
 }
 
 
-
-.viber :hover, .telegram :hover {
+.viber :hover, .telegram :hover, .resume-link :hover {
     transform:scale(1.1, 1.1) ;
 
 }
+
+
+.resume-link {
+    color: #000;
+    width: 0;
+    
+    
+}
+
+.pdf-img {
+    width: 100%;
+}
+
 
 @keyframes mobile {
     to {
@@ -601,7 +622,7 @@ article {
     }
 
     .vectors {
-        width: 55%;
+        width: 52%;
     }
 
     .lines-big {
@@ -616,12 +637,23 @@ article {
     }
 
     .email-tel {
-        margin-top: -15%;
+        margin-top: -92px;
+    }
+
+    
+    .email {
+        font-size: 20px;
     }
 
     .tel {
+        font-size: 20px;
         margin-top: 5%;
     }
+
+    .viber {
+        margin-right: 0;
+    }
+
 
     @keyframes mobile {
         to {
