@@ -266,7 +266,7 @@ article {
   margin-left: 140px;
 }
 
-.certificate {
+.my-pages {
   margin-top: 5%;
   margin-bottom: 5%;
   display: flex;
@@ -274,10 +274,20 @@ article {
   justify-content: center;
 }
 
-.img-sertificate {
-  border: 2px #a4a8fc solid;
-  width: 50%;
-  height: 50%;
+.page:nth-child(2) {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.page img {
+  width: 100%;
+  border: 1px solid #a4a8fc;
+  transition: all 0.5s;
+}
+
+.page img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(1px 2px 3px black);
 }
 
 /* CONTACT */
