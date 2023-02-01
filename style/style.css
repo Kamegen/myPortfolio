@@ -621,6 +621,19 @@ article {
     margin-left: 10%;
   }
 
+.my-pages {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  flex-direction: column;
+}
+
+.page:nth-child(2) {
+margin-right: 0;
+margin-left: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
   .contact-title {
     font-size: 30px;
     margin-top: 0;
