@@ -2,7 +2,7 @@
 *:before,
 *:after {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
   min-width: 10%;
 }
@@ -238,8 +238,6 @@ article {
   animation: react 2s ease-in-out forwards;
 }
 
-/* MY WORK */
-
 .mywork {
   display: flex;
   justify-content: center;
@@ -289,8 +287,6 @@ article {
   transform: scale(1.1);
   filter: drop-shadow(1px 2px 3px black);
 }
-
-/* CONTACT */
 
 #footer {
   background: #d9d9d9;
@@ -621,18 +617,18 @@ article {
     margin-left: 10%;
   }
 
-.my-pages {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  flex-direction: column;
-}
+  .my-pages {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex-direction: column;
+  }
 
-.page:nth-child(2) {
-margin-right: 0;
-margin-left: 0;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
+  .page:nth-child(2) {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
 
   .contact-title {
     font-size: 30px;
@@ -673,7 +669,6 @@ margin-left: 0;
 
   @keyframes mobile {
     to {
-      /* width: 379px; */
       width: 60%;
     }
   }
